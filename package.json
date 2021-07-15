@@ -1,0 +1,13 @@
+{
+  "name": "serverless-cloud-starter-service",
+  "version": "1.0.0",
+  "description": "Default Serverless Cloud service",
+  "main": "index.js",
+  "scripts": {
+    "start": "cloud start",
+    "deploy": "cloud deploy prod"
+  },
+  "dependencies": {
+    "@serverless/cloud": "0.0.13"
+  }
+}
